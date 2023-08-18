@@ -9,13 +9,13 @@ tags: ["GameMaker","Scribble"]
 
 ## 前提
 - scribbleのパッケージがGMSにimportされている
-- そのマニュアルを見たことがある。
-### 理由
+## 理由
 - 大きさによって解像度がマシになるフォントを実現したい場合
 ---
 - [MSDFとは](https://github.com/Chlumsky/msdfgen)
 - 必読[Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/msdf-fonts)
 ---
+## 手順
 - 以下ファイル構成
 - [![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
 	1. result(命名自由)(不要)
