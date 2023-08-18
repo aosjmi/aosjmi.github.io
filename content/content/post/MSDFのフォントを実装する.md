@@ -1,9 +1,10 @@
 ---
 title: "ScribbleでMSDFを実装する"
-date: "2023-08-19"
+date: 2023-08-19
 tags: ["GameMaker","Scribble"]
 ---
-### 前提
+
+## 前提
 - scribbleのパッケージがGMSにimportされている
 - そのマニュアルを見たことがある。
 ### 理由
