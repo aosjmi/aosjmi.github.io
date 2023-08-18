@@ -8,8 +8,8 @@ tags: ["GameMaker","Scribble","font"]
 ---
 
 ---
-## 目的
-- サイズに左右されず、鮮明なフォントを表示させたい
+## できること
+- サイズに左右されず、鮮明なフォントを表示させる
 ---
 ## 前提
 - Scribbleが [https://github.com/JujuAdams/Scribble](https://github.com/JujuAdams/Scribble)
@@ -25,7 +25,7 @@ tags: ["GameMaker","Scribble","font"]
 	1. MSDF専用のpngファイルとjsonファイルを出力する
 	2. GameMakerに適用させる
 ---
-### 1. MSDF専用のpngファイルとjsonファイルを出力する
+### 1. MSDF用のpngファイルとjsonファイルを出力する
 - ttfとmsdf-atlas-gen.exeで
 - MSDF専用のpngファイルとjsonファイルを出力する
 
@@ -53,9 +53,14 @@ tags: ["GameMaker","Scribble","font"]
 ---
 
 - 次に、batファイルを起動させる。(今回はFontmaker.batをクリックする)
-	- 結果、**jsonファイルとpngファイルが生成されます。**
-- 起動しない場合はcharset.txtの内容、ファイル名、batファイルの内容、フォルダの場所、を見直してください。
-	
+	- 結果、**jsonファイルとpngファイルが出力される。**
+		- 上記の例では、fontNote.pngとfontNote.jsonが出力される
+- batファイルが正常にしない場合は、下記を見直してください
+	- ファイル名
+	- フォルダの場所
+	- charset.txtの内容
+	- batファイルの内容
+	- batの動作環境
 ---
 ### 2. GameMakerに適用させる
 - 1の出力を
