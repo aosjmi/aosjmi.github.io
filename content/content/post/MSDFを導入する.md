@@ -36,7 +36,7 @@ tags: ["GameMaker","Scribble","font"]
 	2. charset.txt
 		- 導入する文字を"asdf"のようにして入れる。
 		- 半角記号の代入に気を付ける。
-		- [[charset.txt の例]]
+		- [charset.txt の例](https://drive.google.com/file/d/1y9-iEL2Zya8tfJUbHAAqklWk7rHaZugF/view?usp=drive_link)
 	3. font.ttf(命名自由)
 		- TrueTypeFontを使う 
 		- otfでは機能しない
