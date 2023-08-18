@@ -1,6 +1,6 @@
 ---
 title: "GMSマニュアル整形"
-date: 2023-8-19T12:59:51-05:00
+date: 2023-8-19T03:59:51-05:00
 publishdate: 2023-8-19
 lastmod: 2023-8-19
 draft: false
