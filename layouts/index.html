@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{ $homepage := "ゲ制未満" }}
+{{ with .Site.Menus.nav }}
+  {{ range first 1 . }}
+    {{ $homepage = .Name }}
+  {{ end }}
+{{ end }}
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<div class="right"><div class="title-border"><h1>{{ $homepage }}</h1></div></div>
+<h2 class="entories-title">New Entries</h2>
+{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{ range $pages.ByPublishDate.Reverse }}
+  <p class="main-list">
+    <img class="icon-chevron" src="https://i.gyazo.com/440ca25e4aa39f814b31944d7ced9ca0.png" alt="Image from Gyazo" width="320"/></a>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+    {{ $customDateFormat := "January 2, 2006" }}
+    {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
+    <small class="text-secondary">- {{ .PublishDate.Format $customDateFormat }}</small>
+    <br>
+    {{ partial "tags" . }}
+    {{ if eq .Site.Params.showPostSummary true }}
+    <br>
+    {{ .Summary }}
+    {{ end }}
+  </p>
+{{ end }}
+<hr class="style1">
+<div class="left">
+    <img class="icon" src="https://i.gyazo.com/c5da48b6018fca0d4c02f98650c0c123.jpg" alt="Icon" width="1500"/>
+      <a href="https://twitter.com/AOSJMI0000" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/9e76f1323395d28a021a8021ec246714.png" alt="twitter" width="512"/></a>
+      <a href="https://github.com/aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/663a93c91fceeac6f28d9c6f3890cada.png" alt="github" width="496"/></a>
+      <a href="https://youtube.com/@aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/983d905cfe340f7ad9c9878c7039de85.png" alt="youtube" width="576"/></a>
+      <a href="https://aosjmi.itch.io/" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/992e192f806b225573878c7fbae526c9.png" alt="Image from Gyazo" width="640"/></a>
+{{- end -}}
