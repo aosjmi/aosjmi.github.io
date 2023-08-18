@@ -1,7 +1,9 @@
 ---
+
 title: "ScribbleでMSDFを実装する"
-date: 2023-08-19
+date: "2023-08-19"
 tags: ["GameMaker","Scribble"]
+
 ---
 
 ## 前提
@@ -10,7 +12,7 @@ tags: ["GameMaker","Scribble"]
 ### 理由
 - 大きさによって解像度がマシになるフォントを実現したい場合
 必読[Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/msdf-fonts)
-![[Pasted image 20230816044628.png]]
+[![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
 - result(命名自由)(不要)
 	- 結果を入れる場所にした
 - charset.txt
