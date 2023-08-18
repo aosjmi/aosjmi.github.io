@@ -1,7 +1,7 @@
 ---
 title: "マニュアル"
 date: "2023-08-17"
-tags: ["blog"]
+tags: ["GameMaker"]
 ---
 ## ＃はじめに
 
