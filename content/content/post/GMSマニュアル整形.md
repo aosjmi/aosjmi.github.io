@@ -1,11 +1,6 @@
 ---
-title: "GMSマニュアル整形"
-date: 2023-8-19T03:59:51-05:00
-publishdate: 2023-8-19
-lastmod: 2023-8-19
-draft: false
-aliases:
-  - /use-snap-to-install-the-hugo-edge-version-on-fedora/
+title: "マニュアル"
+date: "2023-08-17"
 tags: ["blog"]
 ---
 ## ＃はじめに
