@@ -1,9 +1,10 @@
 ---
-
-title: "ScribbleでMSDFを実装する"
-date: "2023-08-19"
-tags: ["GameMaker","Scribble"]
-
+title: "MSDFフォントを実装する"
+date: "2023-08-18"
+publishdate: "2023-08-18"
+lastmod: "2023-08-18"
+draft: false
+tags: ["GameMaker", "Scribble",]
 ---
 
 ## 前提
