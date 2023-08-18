@@ -20,16 +20,19 @@ tags: ["GameMaker","Scribble"]
 	2. charset.txt
 		- 導入する文字を"asdf"みたいに入れる。半角記号の代入に気を付ける。
 		- [[charset.txt の例]]
-	>"ABCDEFGHIJKLMN"みたいに
+		>"ABCDEFGHIJKLMN"みたいに
 
 	3. font.ttf(命名自由)
 		- TrueTypeFontを使う 
-	- otfでは機能しない
+		- otfでは機能しない
 	4. Fontmaker.bat(命名自由)
+	
 	> msdf-atlas-gen.exe -font font.ttf -size 32 -charset charset.txt -format png -imageout fontNote.png -json fontNote.json -pxrange 8
-		- フォントの鮮明さを上げる方法
-			- pxrange の値を上げる
-			- sizeを上げる
+		
+	- フォントの鮮明さを上げる方法
+		- pxrange の値を上げる
+		- sizeを上げる
+
 	5. msdf-atlas-gen.exe
 		- ここでDLできる
 			- [Releases · Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen/releases)
