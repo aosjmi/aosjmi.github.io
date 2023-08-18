@@ -1,18 +1,20 @@
 ---
-title: "MSDFフォントを実装する"
+title: "MSDFを導入する"
 date: "2023-08-18"
 publishdate: "2023-08-18"
 lastmod: "2023-08-18"
 draft: false
-tags: ["GameMaker","Scribble"]
+tags: ["GameMaker","Scribble","font"]
 ---
+
+---
+## 目的
+- サイズに左右されず、鮮明なフォントを表示させたい
 ---
 ## 前提
-- scribbleのパッケージがGMSにimportされている
----
-## 理由
-- 大きさに左右されずに解像度がマシになるフォントを実現したい
-- 解像度ごとにフォントを設定するのが面倒
+- Scribbleが [https://github.com/JujuAdams/Scribble](https://github.com/JujuAdams/Scribble)
+- GameMakerに
+- importされている
 --- 
 ## 前提知識
 - Scribbleとは
@@ -20,11 +22,14 @@ tags: ["GameMaker","Scribble"]
 ---
 ## 手順
 - [Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/msdf-fonts)
-	1. ttfをMSDFに変換する
-	2. MSDFをGameMakerに適用する
+	1. MSDF専用のpngファイルとjsonファイルを出力する
+	2. GameMakerに適用させる
 ---
-## 1. ttfをMSDFに変換する
-- 以下ファイル構成
+### 1. MSDF専用のpngファイルとjsonファイルを出力する
+- ttfとmsdf-atlas-gen.exeで
+- MSDF専用のpngファイルとjsonファイルを出力する
+
+- 最初に、下記1~5を同じフォルダに入れる
 - [![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
 	1. result(命名自由)(不要)
 		- 結果を入れる場所にした
@@ -47,12 +52,14 @@ tags: ["GameMaker","Scribble"]
 
 ---
 
-- 上記を同じフォルダに入れてbatファイルを起動する。
-	- **jsonファイルとpngファイルが生成されます。**
-	- 起動しない場合はcharset.txtの内容やファイル名を見直す。
+- 次に、batファイルを起動させる。(今回はFontmaker.batをクリックする)
+	- 結果、**jsonファイルとpngファイルが生成されます。**
+- 起動しない場合はcharset.txtの内容、ファイル名、batファイルの内容、フォルダの場所、を見直してください。
 	
 ---
-## 2. MSDFをGameMakerに適用する
+### 2. GameMakerに適用させる
+- 1の出力を
+- GameMakerに適用させる
 
 1. pngファイルをimportする(fromNoteは任意の命名です)
 
@@ -70,11 +77,11 @@ tags: ["GameMaker","Scribble"]
 
 [![Image from Gyazo|300](https://i.gyazo.com/05286962e49bb01551c7ebac1b71e4b4.png)](https://gyazo.com/05286962e49bb01551c7ebac1b71e4b4)
 
-spriteを指定すればタグ入れられたことが作用してパッケージがフォントとして機能させます。
+このようにspriteにタグが作用し、フォントとして機能させます。
 
 [![Image from Gyazo|300](https://i.gyazo.com/bd5834903e895bde034448df16b10696.png)](https://gyazo.com/bd5834903e895bde034448df16b10696)
 
-**完成**
+終了
 
 ---
 ## 参考資料
