@@ -1,7 +1,10 @@
 ---
 title: "マニュアル"
 date: "2023-08-17"
-tags: ["GameMaker"]
+publishdate: "2023-08-17"
+lastmod: "2023-08-17"
+draft: false
+tags: ["GameMaker","Scribble"]
 ---
 ## ＃はじめに
 
