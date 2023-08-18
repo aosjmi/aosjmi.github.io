@@ -12,26 +12,27 @@ tags: ["GameMaker","Scribble"]
 - そのマニュアルを見たことがある。
 ### 理由
 - 大きさによって解像度がマシになるフォントを実現したい場合
-必読[Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/msdf-fonts)
-[![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
-- result(命名自由)(不要)
-	- 結果を入れる場所にした
-- charset.txt
-	- 導入する文字を"asdf"みたいに入れる。半角記号の代入に気を付ける。
-	- [[charset.txt の例]]
->"ABCDEFGHIJKLMN"みたいに
+- 必読[Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/msdf-fonts)
+- 以下ファイル構成
+- [![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
+	1. result(命名自由)(不要)
+		- 結果を入れる場所にした
+	2. charset.txt
+		- 導入する文字を"asdf"みたいに入れる。半角記号の代入に気を付ける。
+		- [[charset.txt の例]]
+	>"ABCDEFGHIJKLMN"みたいに
 
-- font.ttf(命名自由)
-	- TrueTypeFontを使う 
+	3. font.ttf(命名自由)
+		- TrueTypeFontを使う 
 	- otfでは機能しない
-- Fontmaker.bat(命名自由)
-> msdf-atlas-gen.exe -font font.ttf -size 32 -charset charset.txt -format png -imageout fontNote.png -json fontNote.json -pxrange 8
-- フォントの鮮明さを上げる方法
-	- pxrange の値を上げる
-	- sizeを上げる
-- msdf-atlas-gen.exe
-	- ここでDLできる
-		- [Releases · Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen/releases)
+	4. Fontmaker.bat(命名自由)
+	> msdf-atlas-gen.exe -font font.ttf -size 32 -charset charset.txt -format png -imageout fontNote.png -json fontNote.json -pxrange 8
+		- フォントの鮮明さを上げる方法
+			- pxrange の値を上げる
+			- sizeを上げる
+	5. msdf-atlas-gen.exe
+		- ここでDLできる
+			- [Releases · Chlumsky/msdf-atlas-gen](https://github.com/Chlumsky/msdf-atlas-gen/releases)
 
 >上記を同じフォルダに入れてbatファイルを起動する。
 >**jsonファイルとpngファイルが生成されます。**
