@@ -4,7 +4,7 @@ date: "2023-08-19"
 publishdate: "2023-08-19"
 lastmod: "2023-08-19"
 draft: false
-tags: ["ゲ制未満"]
+tags: ["root"]
 ---
 
 ## 経緯
