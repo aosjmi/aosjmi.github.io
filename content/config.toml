@@ -1,6 +1,6 @@
 baseURL = "https://aosjmi.github.io/"
 languageCode = "ja-JP"
-title = "AOSJMI"
+title = "ゲ制未満"
 
 [taxonomies]
   tag = "tags"
