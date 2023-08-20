@@ -10,6 +10,7 @@ title = "ゲ制未満"
   post = "/:filename/"
 
 [params]
+  enableRobotsTXT = true
   description = "Some description"
   contentBackgroundColor = "#141428"
   contentTextColor = "#fff"
