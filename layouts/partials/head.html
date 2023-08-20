@@ -1,6 +1,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta property="og:title" content="Game" />
+  <meta property="og:description" content="aaaaaaa" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://aosjmi.github.io/" />
+  <meta property="og:image" content="https://gammalab.net/GammaLab.png"/>
+  <meta property="og:updated_time" content="2020-02-26T15:20:34+09:00" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@aosjmi" />
+  <meta name="twitter:title" content="aosjmi"/>
+  <meta name="twitter:url" content="https://aosjmi.github.io/" />
+  <meta name="twitter:description" content="aaaaa" />
+  <meta name="twitter:image" content="https://i.gyazo.com/992e192f806b225573878c7fbae526c9.png" />
   
   {{ hugo.Generator }}
 
@@ -29,6 +43,10 @@
 
   {{ $bootstrapCss := "css/bootstrap.min.css" }}
   <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />
+
+  
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
 
   {{ if .IsHome }}
   {{ $homepage := "Home" }}

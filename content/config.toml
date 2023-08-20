@@ -29,6 +29,9 @@ title = "AOSJMI"
   faviconSafariPinnedTabColor = "#5bbad5"
   faviconMsApplicationTileColor = "#da532c"
   faviconThemeColor = "#ffffff"
+  twitterID = "@aosjmi"
+  description = "aaaaaa"
+  images = ["https://i.gyazo.com/992e192f806b225573878c7fbae526c9.png"]
 
 [menu]
   [[menu.nav]]
