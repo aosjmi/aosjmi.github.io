@@ -26,8 +26,9 @@ tags: ["GameMaker","Scribble","font"]
 	2. GameMakerに適用させる
 ---
 ### 1. MSDF用のpngファイルとjsonファイルを出力する
-- ttfとmsdf-atlas-gen.exeで
-- MSDF専用のpngファイルとjsonファイルを出力する
+> ttfとmsdf-atlas-gen.exeで
+
+> MSDF専用のpngファイルとjsonファイルを出力する
 
 - 最初に、下記1~5を同じフォルダに入れる
 - [![Image from Gyazo|600](https://i.gyazo.com/ba206db4399a45919d97e18914e32bfd.png)](https://gyazo.com/ba206db4399a45919d97e18914e32bfd)
@@ -63,8 +64,9 @@ tags: ["GameMaker","Scribble","font"]
 	- batの動作環境
 ---
 ### 2. GameMakerに適用させる
-- 1の出力を
-- GameMakerに適用させる
+> 1の出力を
+
+> GameMakerに適用させる
 
 1. pngファイルをimportする(fromNoteは任意の命名です)
 
