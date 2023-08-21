@@ -8,7 +8,7 @@ tags: ["目録","GameMaker","Scribble"]
 ---
 
 ---
-- 目次
+- 目録
 	- [Regionサンプル](https://aosjmi.github.io/content/post/scribble-region/)
 	- [MSDFフォント](https://aosjmi.github.io/content/post/msdf01/)
 	- pageサンプル
