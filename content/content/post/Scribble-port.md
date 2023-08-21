@@ -13,7 +13,7 @@ tags: ["目録","GameMaker","Scribble"]
 	- MSDFフォントサンプル
 	- pageサンプル
 	- paddingサンプル
-	- [[簡易なテキスト表示]]
+	- [簡易なテキスト表示](https://aosjmi.github.io/content/post/scribble-easy/)
 
 ---
 ## これは何

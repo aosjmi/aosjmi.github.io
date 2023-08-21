@@ -7,6 +7,7 @@ draft: false
 tags: ["GameMaker","Scribble","text"]
 ---
 
+--- 
 ## 前提
 - Scribble.yypを開ける
 - `SCRIBBLE_ALLOW_GLYPH_DATA_GETTER` を`true`にする
