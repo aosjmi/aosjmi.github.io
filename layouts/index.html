@@ -8,6 +8,7 @@
 {{ end }}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <div class="right"><div class="title-border"><h1>{{ $homepage }}</h1></div></div>
+<small ><code><a class="tag-edit" href="https://aosjmi.github.io/tags/%E7%9B%AE%E9%8C%B2/">#目録</a></code></small>
 <h2 class="entories-title">New Entries</h2>
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
