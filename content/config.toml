@@ -81,3 +81,8 @@ title = "ゲ制未満"
   [markup.tableOfContents]
     endLevel = 6
     startLevel = 2
+
+  [params.meta]
+    favicon             = true
+    svg                 = true
+    faviconVersion      = ""
