@@ -9,7 +9,7 @@ tags: ["目録","GameMaker","Scribble"]
 
 ---
 - 目次
-	- [[Regionサンプル集]]
+	- [Regionサンプル集](https://aosjmi.github.io/content/post/scribble-region/)
 	- MSDFフォントサンプル
 	- pageサンプル
 	- paddingサンプル
@@ -35,9 +35,9 @@ tags: ["目録","GameMaker","Scribble"]
 - Scribbleは便利なのにサンプルコードが少ない。
 	- [GameMaker kitchen(discord)](https://discord.gg/8krYCqr)
 	- Scribbleに同封されているサンプルプロジェクト(scribble.yyp)
-- 私はこの二つしか発見できていません。
+- 私はこの二つしかScribbleについての有用な情報源を発見できていません。
 - 仕方がないので、サンプルプロジェクトを噛み締める方法で理解を深める。
-- 私の興味のあるサンプルしかまとめられません。
+- 残念ながら私の興味のあるサンプルしかまとめられません。
 ## 確認
 - Scribble
 	- Configuration - Please edit these!
