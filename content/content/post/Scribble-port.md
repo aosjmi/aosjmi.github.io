@@ -9,8 +9,8 @@ tags: ["目録","GameMaker","Scribble"]
 
 ---
 - 目次
-	- [Regionサンプル集](https://aosjmi.github.io/content/post/scribble-region/)
-	- MSDFフォントサンプル
+	- [Regionサンプル](https://aosjmi.github.io/content/post/scribble-region/)
+	- [MSDFフォント](https://aosjmi.github.io/content/post/msdf01/)
 	- pageサンプル
 	- paddingサンプル
 	- [簡易なテキスト表示](https://aosjmi.github.io/content/post/scribble-easy/)

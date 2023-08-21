@@ -1,11 +1,14 @@
 ---
-title: "Regionサンプル集"
+title: "Regionサンプル"
 date: "2023-08-21"
 publishdate: "2023-08-21"
 lastmod: "2023-08-21"
 draft: false
-tags: ["GameMaker","Scribble","text"]
+tags: ["GameMaker","Scribble"]
 ---
+---
+##できること
+- テキストの一部に指定してScribble特有の当たり判定を作る
 
 --- 
 ## 前提
