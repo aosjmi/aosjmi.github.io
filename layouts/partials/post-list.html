@@ -4,9 +4,9 @@
     <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
     {{ $customDateFormat := "January 2, 2006" }}
     {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
-    <br>
-    <small class="text-secondary">{{ .PublishDate.Format $customDateFormat }}</small>
-    {{ partial "tags" . }}
+    
+    <small class="text-secondary"><li>{{ .PublishDate.Format $customDateFormat }}</li></small>
+    
     {{ if eq .Site.Params.showPostSummary true }}
     <br>
     {{ .Summary }}
