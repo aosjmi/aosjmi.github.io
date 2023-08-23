@@ -4,7 +4,7 @@ date: "2023-08-20"
 publishdate: "2023-08-20"
 lastmod: "2023-08-20"
 draft: false
-tags: ["tool"]
+tags: ["etc"]
 ---
 とまではいきませんが･･･
 

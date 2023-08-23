@@ -32,6 +32,8 @@ tags: ["目録","GameMaker","Scribble"]
 	- フォント効果のベイク
 	- 解像度に依存しないMSDFフォント
 	- テキストの当たり判定
+---
+
 ## 経緯
 - Scribbleは便利なのにサンプルコードが少ない。
 	- [GameMaker kitchen(discord)](https://discord.gg/8krYCqr)
@@ -39,6 +41,8 @@ tags: ["目録","GameMaker","Scribble"]
 - 私はこの二つしかScribbleについての有用な情報源を発見できていない。
 - 仕方がないので、サンプルプロジェクトを噛み締める方法で理解を深める。
 - 私の興味のあるサンプルしかまとめられない。
+---
+
 ## 確認
 - Scribble
 	- Configuration - Please edit these!
@@ -47,5 +51,5 @@ tags: ["目録","GameMaker","Scribble"]
 		-  __scribble_config_defaults
 			- 一部の機能がオフになっているため、その類のエラーが出た際は、マクロをfalseからtrueに変する必要がある
 
-- ---
+---
 

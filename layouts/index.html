@@ -8,7 +8,11 @@
 {{ end }}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <div class="right"><div class="title-border"><h1>{{ $homepage }}</h1></div></div>
-<small ><code><a class="tag-edit" href="https://aosjmi.github.io/tags/%E7%9B%AE%E9%8C%B2/">#目録</a></code></small>
+<h2 class="entories-title">Port</h2>
+<small ><code>
+  <a class="tag-edit" href="https://aosjmi.github.io/tags/%E7%9B%AE%E9%8C%B2/">#目録</a>
+  <a class="tag-edit" href="https://aosjmi.github.io/tags/root/">#root</a>
+</code></small>
 <h2 class="entories-title">New Entries</h2>
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
@@ -26,7 +30,18 @@
     {{ end }}
   </p>
 {{ end }}
-<hr class="style1">
+
+<h2 class="entories-title">All Tags</h2>
+<small ><code>
+  <a class="tag-edit" href="/tags/blog/">#blog</a>
+  <a class="tag-edit" href="/tags/etc/">#etc</a>
+  <a class="tag-edit" href="/tags/GameMaker/">#GameMaker</a>
+  <a class="tag-edit" href="/tags/Scribble/">#Scribble</a>
+  <a class="tag-edit" href="/tags/shortcut/">#shortcut</a>
+  <a class="tag-edit" href="/tags/root/">#root</a>
+  <a class="tag-edit" href="/tags/%E7%9B%AE%E9%8C%B2/">#目録</a>
+</code></small>
+<hr class="style2">
 <div class="left">
     <img class="icon" src="https://i.gyazo.com/c5da48b6018fca0d4c02f98650c0c123.jpg" alt="Icon" width="1500"/>
       <a href="https://twitter.com/AOSJMI0000" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/9e76f1323395d28a021a8021ec246714.png" alt="twitter" width="512"/></a>
