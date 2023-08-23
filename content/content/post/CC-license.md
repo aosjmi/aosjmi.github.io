@@ -37,7 +37,7 @@ tags: ["etc"]
 
 - **CC BY**
 	- 表示
-- **CC *BY-NC
+- **CC BY-NC**
 	- 表示-非営利
 - **CC BY-ND**
 	- 表示-改変禁止
