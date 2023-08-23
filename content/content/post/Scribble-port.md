@@ -6,19 +6,20 @@ lastmod: "2023-08-21"
 draft: false
 tags: ["目録","GameMaker","Scribble"]
 ---
-
----
-- 目録
-	- [Regionサンプル](https://aosjmi.github.io/content/post/scribble-region/)
-	- [MSDFフォント](https://aosjmi.github.io/content/post/msdf01/)
-	- pageサンプル
-	- paddingサンプル
-	- [簡易なテキスト表示](https://aosjmi.github.io/content/post/scribble-easy/)
-
 ---
 ## これは何
 - [Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/features)
 	- 包括的なテキストレンダリングライブラリ
+---
+
+- [Regionサンプル](https://aosjmi.github.io/content/post/scribble-region/)
+- [MSDFフォント](https://aosjmi.github.io/content/post/msdf01/)
+- pageサンプル
+- paddingサンプル
+- [簡易なテキスト表示](https://aosjmi.github.io/content/post/scribble-easy/)
+
+---
+
 ## できること
 - [Scribble Documentation](https://www.jujuadams.com/Scribble/#/latest/features)
 	- テキストのカラー,フォントの変更
