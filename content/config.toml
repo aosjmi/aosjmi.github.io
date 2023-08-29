@@ -29,11 +29,14 @@ title = "ゲ制未満"
   faviconSafariPinnedTabColor = "#5bbad5"
   faviconMsApplicationTileColor = "#da532c"
   faviconThemeColor = "#ffffff"
+  favicon = '/favicon.ico'
   twitterID = "@aosjmi"
   description = "private-blog"
   images = ["https://i.gyazo.com/ba93f1d55b11ed02c31385a61f9263cb.png"]
   pygmentscodefences = true
   pygmentsstyle = "paraiso-light"
+  favicon             = true
+  svg                 = true
 
 [menu]
   [[menu.nav]]
@@ -87,4 +90,6 @@ title = "ゲ制未満"
   [params.meta]
     favicon             = true
     svg                 = true
-    faviconVersion      = "1.0"
+    faviconVersion      = "1"
+    msColor             = "#ffffff" 
+    iOSColor            = "#ffffff" 

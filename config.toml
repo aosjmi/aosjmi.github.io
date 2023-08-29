@@ -1,3 +1,6 @@
 baseURL = 'https://aosjmi.github.io/'
 languageCode = 'ja-JP'
 title = 'ゲ制未満'
+
+[params]
+favicon = '/favicon.ico'
