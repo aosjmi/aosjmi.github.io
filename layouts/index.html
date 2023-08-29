@@ -1,5 +1,4 @@
 {{- define "main" -}}
-
 {{ $homepage := "ゲ制未満" }}
 {{ with .Site.Menus.nav }}
   {{ range first 1 . }}
@@ -7,17 +6,6 @@
   {{ end }}
 {{ end }}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-<div class="right">
-  <div class="title-border">
-    <a href="https://twitter.com/aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/9e76f1323395d28a021a8021ec246714.png" alt="twitter" width="512"/></a>
-    <a href="https://github.com/aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/663a93c91fceeac6f28d9c6f3890cada.png" alt="github" width="496"/></a>
-    <a href="https://youtube.com/@aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/983d905cfe340f7ad9c9878c7039de85.png" alt="youtube" width="576"/></a>
-    <a href="https://aosjmi.itch.io/" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/992e192f806b225573878c7fbae526c9.png" alt="Image from Gyazo" width="640"/></a>
-    <h1>{{ $homepage }}</h1>
-  </div>
-</div>
-
 
 <h2 class="entories-title">Port</h2>
 <small ><code>

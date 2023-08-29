@@ -1,0 +1,12 @@
+<nav class="ddd-navbar">
+  <div class="left">
+    <div class="nav-border">
+      <a href="https://aosjmi.github.io/"><img src="https://i.gyazo.com/ac830ab373ea5a992e7808238beef8da.png" class="brand-home" alt="Image from Gyazo" width="576"/></a>
+    </div>
+  </div>
+  <div class="container">
+    {{ range .Site.Menus.nav }}
+    <a href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </div>
+</nav>
