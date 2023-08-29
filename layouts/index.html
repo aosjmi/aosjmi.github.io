@@ -29,11 +29,10 @@
 {{ range $pages.ByPublishDate.Reverse }}
   <p class="main-list">
     
-   <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
-    {{ $customDateFormat := "January 2, 2006" }}
+   {{ $customDateFormat := "060102" }}
     {{ with .Site.Params.customDateFormat }}{{ $customDateFormat = . }}{{ end }}
     <small class="text-secondary"> {{ .PublishDate.Format $customDateFormat }}</small>
-    <br>
+    <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
     {{ partial "tags" . }}
     {{ if eq .Site.Params.showPostSummary true }}
     <br>
