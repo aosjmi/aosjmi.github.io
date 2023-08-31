@@ -1,5 +1,5 @@
 {{- define "main" -}}
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <div class="page-title">
     <div class="title-title"><h2 >{{ .Title | markdownify }}</h2></div>
     {{ .Content }}
@@ -13,4 +13,21 @@
     </div>
   </div>
 </div>
+<script>
+$(document).ready(function(){
+    $('ul, ol').each(function(){
+        // Get the parents of a particular ul or ol
+        var parentLists = $(this).parents('ul, ol');
+        // Apply css to only the odd level ul
+        if(parentLists.length % 2 == 0){
+          $(this).css({
+            'background-image': 'linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%), linear-gradient(to bottom,#f5f5f5  0%, #f5f5f5  100%)',
+            'background-clip': 'content-box, padding-box'
+            });
+        }
+    });
+});
+</script>
+
+
 {{- end -}}
