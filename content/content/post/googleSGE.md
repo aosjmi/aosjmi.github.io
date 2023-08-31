@@ -1,8 +1,8 @@
 ---
 title: "GoogleSGEの導入"
-date: "2023-09-01"
-publishdate: "2023-09-01"
-lastmod: "2023-09-01"
+date: "2023-08-31"
+publishdate: "2023-08-31"
+lastmod: "2023-08-31"
 draft: false
 tags: ["tool"]
 ---
