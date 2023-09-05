@@ -8,11 +8,11 @@ tags: ["GameMaker","Scribble"]
 ---
 
 
-```create
+```gamemakerlanguage
 scribble_font_set_default("font名もしくはsprite名の指定");
 ```
 
-```draw
+```gamemakerlanguage
 var _element = scribble("hello,world");
 
 // ここでエフェクトを付与してもよい

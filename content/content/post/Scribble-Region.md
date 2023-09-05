@@ -28,17 +28,12 @@ tags: ["GameMaker","Scribble"]
 ---
 ## obj_test_regions
 
-```draw
+```gamemakerlanguage
 //draw
-//1.テキストの表示
 var _element = scribble("Here is a [region,region 1]region\nto test[/region] this [region,region 2]feature.");
 _element.draw(10, 10);
-
-//2.当たり判定の設定
 var _region = _element.region_detect(10, 10, mouse_x, mouse_y);
 _element.region_set_active(_region, c_red, 0.5);
-
-//3.当たり判定が返す値の表示
 draw_set_font(scribble_fallback_font);
 draw_text(10, 50, _region);
 ```
@@ -49,7 +44,7 @@ draw_text(10, 50, _region);
 
 ---
 ## 1.テキストの表示
-```draw
+```gamemakerlanguage
 var _element = scribble("Here is a [region,region 1]region\nto test[/region] this [region,region 2]feature.");
 _element.draw(10, 10); //表示する
 ```
@@ -64,7 +59,8 @@ _element.draw(10, 10); //表示する
 --- 
 
 ## 2.当たり判定の設定
-```draw
+```gamemakerlanguage
+//draw
 var _region = _element.region_detect(10, 10, mouse_x, mouse_y);
 _element.region_set_active(_region, c_red, 0.5);
 ```
@@ -83,7 +79,8 @@ _element.region_set_active(_region, c_red, 0.5);
 
 ## 3.
 
-```draw
+```gamemakerlanguage
+//draw
 draw_set_font(scribble_fallback_font);//フォントの指定
 
 draw_text(10, 50, _region);

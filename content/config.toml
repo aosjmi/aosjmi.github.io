@@ -75,7 +75,7 @@ title = "ゲ製未満"
       unsafe = true
       xHTML = false
   [markup.highlight]
-    codeFences = true
+    codeFences = false
     hl_Lines = ""
     lineNoStart = 1
     lineNos = true
