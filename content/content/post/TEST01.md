@@ -10,6 +10,7 @@ tags: ["テスト"]
 - シンタックスハイライトの確認
 - 内容はダイクストラ法のつもりらしい
 - コピーできるボタンが実装されている↓
+---
 ```gamemakerlanguage
 s =argument0
 function Dijkstra(s){
