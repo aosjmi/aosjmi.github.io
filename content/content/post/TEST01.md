@@ -1,5 +1,5 @@
 ---
-title: "SyntaxHighlightテスト"
+title: "SyntaxHighlightのテスト"
 date: "2023-09-04"
 publishdate: "2023-09-04"
 lastmod: "2023-09-04"
@@ -9,6 +9,7 @@ tags: ["テスト"]
 ---
 - シンタックスハイライトの確認
 - 内容はダイクストラ法のつもりらしい
+- コピーできるボタンも実装！
 ```gamemakerlanguage
 s =argument0
 function Dijkstra(s){
