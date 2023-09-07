@@ -57,6 +57,9 @@ tags: ["抽象的な概念"]
 - 道具の是非ではなく、道具を使う精神について
 - エックスを使っている人間は遍く強姦魔だ(?)
 ---
+- [![Image from Gyazo](https://i.gyazo.com/b52f4281e9b2d63c0df6f1d5ad8dedc6.png)](https://gyazo.com/b52f4281e9b2d63c0df6f1d5ad8dedc6)
+- ChatGPTくん、ありがとう
+---
 - 今後はブログもこの分け方にしようと思う。
 	- https://scrapbox.io/shokai/2_hop_link
 	- 具体的な物事
