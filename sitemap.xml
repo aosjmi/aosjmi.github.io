@@ -1,12 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
   <loc>https://aosjmi.github.io/</loc>
-  <priority>1.0</priority>
-  <lastmod>2023-08-26T07:59:50+09:00</lastmod>
-  <changefreq>hourly</changefreq>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/scribble-port/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/blog/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/etc/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/shortcut/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/root/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/log/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/%E8%80%83%E5%AF%9F/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/%E7%9B%AE%E9%8C%B2/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/essay01/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/抽象的な概念/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/test01/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/テスト/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/googlesge/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/tool/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/good-article/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/考察/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/temp01/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/cc-license/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/scribble-easy/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/gamemaker/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/scribble/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/scribble-region/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/目録/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/brain-speed/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/concept/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/blog-comment/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/%E3%83%96%E3%83%AD%E3%82%B0%E3%82%92%E4%BD%9C%E3%82%8B%E3%81%9E/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/msdf01/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/tags/font/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/gms%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB%E6%95%B4%E5%BD%A2/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/post/vimnuim/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aosjmi.github.io/content/about/</loc>
+  <lastmod>2023-09-11T17:06:30+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 
 </urlset>
