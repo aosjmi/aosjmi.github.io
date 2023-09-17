@@ -11,15 +11,15 @@ tags: ["テスト"]
 - 内容はダイクストラ法のつもりらしい
 - コピーできるボタンが実装されている↓
 ---
+
 ```gdscript
- var random_angle_degree = 10.0
- var max_range = 2000.0
-    var max_bullet_speed = 1500.0
-   
-    func shoot():
-    var bullet_scene.instance()
-    add_child(bullet)
-    bullet.global_transform = global_transform
+var random_angle_degree = 10.0
+var max_range = 2000.0
+	var max_bullet_speed = 1500.0
+	func shoot():
+  	var bullet_scene.instance()
+  	add_child(bullet)
+	bullet.global_transform = global_transform
 ```
 ---
 ```gamemakerlanguage
