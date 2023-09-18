@@ -7,22 +7,7 @@
 {{ end }}
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-
-<h2 class="entories-title">Port</h2>
-<ul><li><a href="https://aosjmi.github.io/content/post/scribble-port/">Scribble</a></li></ul>
-<h2 class="entories-title">All Tags</h2>
-<small ><code>
-  <a class="tag-edit" href="/tags/blog/">#blog</a>
-  <a class="tag-edit" href="/tags/etc/">#etc</a>
-  <a class="tag-edit" href="/tags/GameMaker/">#GameMaker</a>
-  <a class="tag-edit" href="/tags/Scribble/">#Scribble</a>
-  <a class="tag-edit" href="/tags/shortcut/">#shortcut</a>
-  <a class="tag-edit" href="/tags/root/">#root</a>
-  <a class="tag-edit" href="/tags/log/">#log</a>
-  <a class="tag-edit" href="/tags/考察/">#考察</a>
-  <a class="tag-edit" href="/tags/%E7%9B%AE%E9%8C%B2/">#目録</a>
-</code></small>
-<h2 class="entories-title">新着投稿</h2>
+<h2 class="entories-title">New Entries</h2>
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
   <p class="main-list">
@@ -39,11 +24,11 @@
   </p>
 {{ end }}
 
-<div class="left">
+<!--<div class="left">
     <a href="https://twitter.com/aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/9e76f1323395d28a021a8021ec246714.png" alt="twitter" width="512"/></a>
     <a href="https://github.com/aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/663a93c91fceeac6f28d9c6f3890cada.png" alt="github" width="496"/></a>
     <a href="https://youtube.com/@aosjmi" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/983d905cfe340f7ad9c9878c7039de85.png" alt="youtube" width="576"/></a>
     <a href="https://aosjmi.itch.io/" target="_blank" rel="noopener noreferrer"><img class="brand-twitter" src="https://i.gyazo.com/992e192f806b225573878c7fbae526c9.png" alt="Image from Gyazo" width="640"/></a>
-</div>
+</div>-->
 
 {{- end -}}
