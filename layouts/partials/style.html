@@ -191,10 +191,10 @@ h2.entories-title:after {
 
 .page-title{
   border: solid 1px#fff;/*線色*/
-  padding-top: 0.5em;
+  padding-top: 0.1em;
   padding-bottom: 0.5em;
   padding-left: 1.2em;
-  padding-right: 0em;
+  padding-right: 1.2em;
 }
 
 article hr{
@@ -215,7 +215,7 @@ li a{
 }
 article h2{
   margin-top: 0.2em;
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 .tag-edit{
@@ -301,6 +301,11 @@ img.icon{
   height: 11px;
 }
 
+:not(pre)>code[class*=language-], 
+pre[class*=language-] {
+    background: #2d2d2d;
+    border-radius: 5px;
+}
 
 @media print {
   .custom-navbar {
