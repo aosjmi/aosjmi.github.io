@@ -1,5 +1,5 @@
 ---
-title: "ゼロから始めるGodot"
+title: "1.コードってどんなもの？"
 date: "2023-09-18"
 publishdate: "2023-09-18"
 lastmod: "2023-09-18"
@@ -7,7 +7,7 @@ draft: false
 tags: ["テスト"]
 ---
 ---
-1.コードってどんなもの？
+
 ```gdscript
 var random_angle_degree = 10.0
 var max_range = 2000.0
